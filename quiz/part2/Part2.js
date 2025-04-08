@@ -9,6 +9,7 @@ untuk membentuk sebuah kalimat. Jangan lupa menambahkan spasi di setiap kata, da
 tampilkan di console hasil penggabungannya! Kamu tidak perlu membuat variable baru!
 */
 
+// SOLUSI
 let word = "JavaScript";
 let second = "is";
 let third = "awesome";
@@ -33,6 +34,7 @@ Saat kamu mendapatkan tiap huruf, untuk membentuk setiap kata kamu tinggal mengg
 tersebut!
 */
 
+// SOLUSI
 const kata = "wow JavaScript is so cool";
 const exampleFirstWord = kata[0] + kata[1] + kata[2];
 const secondWord =
@@ -53,6 +55,8 @@ Problem
 
 Mirip seperti soal nomor 2, namun kali ini gunakan substring untuk mengambil potongan dari tiap kata!
 */
+
+// SOLUSI
 let word3 = "wow JavaScript is so cool";
 let exampleFirstWord3 = word3.substring(0, 3);
 const secondWord3 = word3.substring(4, 14);
@@ -72,6 +76,8 @@ Problem
 
 Mirip seperti soal nomor 3, tapi tampilkan juga panjang kata masing-masingnya!
 */
+
+// SOLUSI
 let word4 = "wow JavaScript is so cool";
 let exampleFirstWord4 = word4.substring(0, 3);
 let firstWordLength = exampleFirstWord4.length;

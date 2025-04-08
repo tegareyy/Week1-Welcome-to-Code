@@ -45,21 +45,21 @@
 // COUNTER pada LOOP
 let i = 1; // i adalah counter nya
 
-// while(i < 100) {
-//   console.log(i);
-//   i += 2 // counter nya nambah sesuai jumlah
-// }
+while(i < 100) {
+  console.log(i);
+  i += 2 // counter nya nambah sesuai jumlah
+}
 
 // Menggabungkan dengan IF statement
-// while (i < 10) {
-//   // cari ganjil atau genap
-//   if (i % 2 === 0) {
-//     console.log(`angka : ${i} = genap`);
-//   } else {
-//     console.log(`angka : ${i} = ganjil`);
-//   }
-//   i++;
-// }
+while (i < 10) {
+  // cari ganjil atau genap
+  if (i % 2 === 0) {
+    console.log(`angka : ${i} = genap`);
+  } else {
+    console.log(`angka : ${i} = ganjil`);
+  }
+  i++;
+}
 
 // problem fizzbuzz
 // kelipatan 3 = fizz
