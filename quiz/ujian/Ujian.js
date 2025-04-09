@@ -85,11 +85,16 @@ Function akan me-return true jika jumlah karakter x sama dengan jumlah karakter 
 
 // SOLUSI
 function xo(str) {
-  // pecah semua dulu, x dan o
-  // terus filter
-  let cariX = str.split("").filter((hurufX) => hurufX === "x").length;
-  let cariO = str.split("").filter((hurufO) => hurufO === "o").length;
-  return cariX === cariO;
+  let x = 0;
+  let o = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === "x") {
+      x += 1;
+    } else if (str[i] === "o") {
+      o += 1;
+    }
+  }
+  return x === o;
 }
 
 // TEST CASES
